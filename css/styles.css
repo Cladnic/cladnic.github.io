@@ -112,7 +112,6 @@ iframe {
     border-style:solid;
     border-color: #101010;
     border-radius: 12px;
-    background-color: #24282c;
     transition: 0.25s all;
 }
 .box:hover {

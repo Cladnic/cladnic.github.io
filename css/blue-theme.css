@@ -7,5 +7,6 @@
 .light-bg-code {
     background-color: #0d1117;
     border-style:solid;
-    border-width: 1px
+    border-width: 1px;
+    border-color: rgb(63, 64, 68);
 }
