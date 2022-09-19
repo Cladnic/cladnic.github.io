@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dark Mode</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="css/helpers.css"/>
+        <link rel="stylesheet" type="text/css" href="css/colors.css"/>
+        <link rel="stylesheet" type="text/css" href="css/blue-theme.css"/>
+        <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+
+        <script>
+          // Set global configs. Declare before importing `zero-md` element.
+          // These settings will apply to all instances of `zero-md`.
+          window.ZeroMd = {
+            config: {
+              cssUrls:  [
+                'css/prism.css','css/customMd.css'
+              ]
+            }
+          };
+        </script>
+    </head>
+    <body class="flex-column">
+        <div id="header" class="light-bg low-border flex-row">
+            <div id="header-container" class="container-size flex-row">
+                <div id="nav-bar">
+                    <a href="index.html"><button class="tab-button high-color">
+                        Home
+                    </button></a>
+
+                    <a href="#"><button class="dark-bg low-border tab-button active full-color">
+                        Projects
+                    </button></a>
+                </div>
+            </div>
+        </div>
+        <div id="container" class="dark-bg container-size">
+            <div class="light-bg-code pop-box small-shadow flex-column">
+                <zero-md src="markdown/airline-system.md"></zero-md>
+            </div>
+
+        </div>
+        <div id="footer" class="light-bg low-border flex-row">
+            <div id="footer-container" class="container-size"></div>
+        </div>
+    </body>
+</html>

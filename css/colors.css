@@ -1,0 +1,19 @@
+/* Border colors */
+
+.full-border {border-color: #ffffff!important;}
+
+.high-border {border-color: #d9d9d9!important;}
+
+.medium-border {border-color: #999!important;}
+
+.low-border {border-color: #595959!important;}
+
+/* Colors */
+
+.full-color {color: #ffffff!important;}
+
+.high-color, body {color: #d9d9d9!important;}
+
+.medium-color {color: #999!important;}
+
+.low-color {color: #595959!important;}
