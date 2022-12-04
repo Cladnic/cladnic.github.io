@@ -1,110 +1,110 @@
 .markdown-body {
-  box-sizing: border-box;
-  margin: 0 auto;
-  line-height: 1.5;
-  width: 720px
-}
-
-.markdown-body pre {
-  background-color: #21262d;
-  border-radius: 6px;
-  padding: 16px;
-  overflow: auto;
-}
-
-.markdown-body p code {
-  background-color: #000000a1;
-  border-radius: 6px;
-  color: white;
-  word-break: break-all;
-  padding: .2em .4em;
-  margin: 0;
-}
-
-.markdown-body .repository {
-  width: fit-content;
-  height: auto;
-  border-radius: 7px;
-  transition: 0.25s all;
-  background-color: #2d2d2d;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  padding: 5px;
-}
-  
-.markdown-body .repository:hover {
-    background-color: #3c6d9e;
-    cursor: pointer;
-  }
-
-.markdown-body img.previewImage {
-  width: 100%;
-  height: auto;
-}
-
-a {
-  color:skyblue;
-}
-.markdown-body .backButton {
-  width: fit-content;
-  height: auto;
-  border-radius: 7px;
-  transition: 0.25s all;
-  background-color: var(--sidebar-color);
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  padding: 5px;
-}
-  
-.markdown-body .backButton:hover {
-    background-color: #3c6d9e;
-    cursor: pointer;
+    box-sizing: border-box;
+    margin: 0 auto;
+    line-height: 1.5;
+    width: 720px
   }
   
-.markdown-body .backButton img {
-  opacity: 80%;
-  width: 25px;
-  height: 25px;
-}
-
-.markdown-body .repository {
-  width: fit-content;
-  height: auto;
-  border-radius: 7px;
-  transition: 0.25s all;
-  background-color: #2f3741;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  padding: 5px;
-}
-  
-.markdown-body .repository:hover {
-    background-color: #3c6d9e;
-    cursor: pointer;
+  .markdown-body pre {
+    background-color: #21262d;
+    border-radius: 6px;
+    padding: 16px;
+    overflow: auto;
   }
   
-.markdown-body .repository img {
-  opacity: 80%;
-  width: 25px;
-  height: 25px;
-  margin-left: 5px;
-}
+  .markdown-body p code {
+    background-color: #000000a1;
+    border-radius: 6px;
+    color: white;
+    word-break: break-all;
+    padding: .2em .4em;
+    margin: 0;
+  }
+  
+  .markdown-body .repository {
+    width: fit-content;
+    height: auto;
+    border-radius: 7px;
+    transition: 0.25s all;
+    background-color: #2d2d2d;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+    
+  .markdown-body .repository:hover {
+      background-color: #3c6d9e;
+      cursor: pointer;
+    }
+  
+  .markdown-body img.previewImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  a {
+    color:skyblue;
+  }
+  .markdown-body .backButton {
+    width: fit-content;
+    height: auto;
+    border-radius: 7px;
+    transition: 0.25s all;
+    background-color: var(--sidebar-color);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+    
+  .markdown-body .backButton:hover {
+      background-color: #3c6d9e;
+      cursor: pointer;
+    }
+    
+  .markdown-body .backButton img {
+    opacity: 80%;
+    width: 25px;
+    height: 25px;
+  }
 
-.markdown-body .border {
-  border-style: solid;
-  border-radius: 9px;
-  border-width: 1px;
-  border-color: rgb(189, 189, 189);
-}
+  .markdown-body .repository {
+    width: fit-content;
+    height: auto;
+    border-radius: 7px;
+    transition: 0.25s all;
+    background-color: #2f3741;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+    
+  .markdown-body .repository:hover {
+      background-color: #3c6d9e;
+      cursor: pointer;
+    }
+    
+  .markdown-body .repository img {
+    opacity: 80%;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+  }
+
+  .markdown-body .border {
+    border-style: solid;
+    border-radius: 9px;
+    border-width: 1px;
+    border-color: rgb(189, 189, 189);
+  }
