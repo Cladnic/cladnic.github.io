@@ -19,3 +19,9 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.pop-hover:hover {
+    background-color: #2e353f;
+    cursor: pointer;
+    transition: 0.3s
+  }

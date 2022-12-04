@@ -9,8 +9,10 @@ This is a simple version of a blockchain containing blocks which rely on each ot
 coinbase and ability to make transactions between these wallets. The project was made by following a guide to create a simple blockchain which can be found 
 <a href="https://medium.com/programmers-blockchain/create-simple-blockchain-java-tutorial-from-scratch-6eeed3cb03fa">here</a>. A sample of the terminal output when run 
 which creates blocks, wallets, performs transactions between these wallets, and verifies that the blockchain is still valid can be found below:
-        
-```text
+
+<div class="border">  
+
+```console
 Creating and Mining Genesis block...
 Transaction Successfully added to Block
 Block Mined!!! :0fd1bf3c22b794ceb66370b08089010eacf3d34e37d02e2ee8d645a70ca3ddc6
@@ -38,6 +40,9 @@ WalletA's balance is: 80.0
 WalletB's balance is: 20.0
 Blockchain is valid
 ```
+
+</div>
+
 <a href="https://www.github.com/cladnic/simpleblockchain" target="_blank" class="repository">
     <span>source code</span>
     <img src="images/whitegithubbtnimg.png" alt="github image">

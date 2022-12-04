@@ -103,35 +103,23 @@ iframe {
     height: 100%;
 }
 
-.box {
-    margin-bottom: 10px;
+.pop-wrapper {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 3fr;
-    border-width: 1px;
-    border-style:solid;
-    border-color: #101010;
-    border-radius: 12px;
-    transition: 0.25s all;
+    grid-template-columns: 85% 15%;
 }
-.box:hover {
-    background-color: #3c6d9e;
-    cursor: pointer;
-  }
 
-.box-image {
+.pop-box-arrow {
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.pop-title {
+    text-align: left;
+    grid-row-start: 1;
+    grid-row-end: 1;
     grid-column-start: 1;
     grid-column-end: 1;
-}
-
-.box-image img {
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-}
-
-.box-text {
-    grid-column-start: 2;
-    grid-column-end: 3;
 }

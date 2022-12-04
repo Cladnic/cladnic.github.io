@@ -14,8 +14,9 @@ To setup the infrastructure Terraform was used, in development it was setup with
 Ansible with ansible-playbooks as well as Helm was used to setup monitoring 
 tools such as Prometheus, Grafana, and alertmanager. These were placed in a monitoring namespace which can be seen below
 
+<div class="border">
 
-```text
+```console
 NAME                                                        TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)                      AGE
 alertmanager-operated                                       ClusterIP   None             <none>        9093/TCP,9094/TCP,9094/UDP   3m29s
 monitoring-kube-prometheus-alertmanager                     ClusterIP   10.110.153.109   <none>        9093/TCP                     3m41s
@@ -26,6 +27,8 @@ monitoring-kube-prometheus-stack-kube-state-metrics         ClusterIP   10.99.39
 monitoring-kube-prometheus-stack-prometheus-node-exporter   ClusterIP   10.103.223.85    <none>        9100/TCP                     3m41s
 prometheus-operated                                         ClusterIP   None             <none>        9090/TCP                     3m29s
 ```
+
+</div>
 
 The logging solution consisted of EFL-stack (elasticsearch, fluentd, and logstash). Flux was used for continuous integration and deployed resources from the `releases/` and `namespaces/`
 directories in the git repository.
